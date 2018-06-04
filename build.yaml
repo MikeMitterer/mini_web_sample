@@ -1,0 +1,12 @@
+# Read about `build.yaml` at https://pub.dartlang.org/packages/build_config
+targets:
+  $default:
+    builders:
+      git_version|gitVersionBuilder:
+        #options:
+          # Overwrite your version
+          # version: "1.8"
+      git_version|fromTemplateBuilder:
+        #options:
+          # Overwrite your version
+          # version: "1.9"
