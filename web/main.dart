@@ -3,6 +3,8 @@
 
 import 'dart:html';
 
+import 'git.version.dart' as autogen;
+
 void main() {
-  querySelector('#output').text = 'Your Dart app is running.';
+  querySelector('#output').text = 'Your Dart app is running - Version: ${autogen.gitVersion} (from main.dart)';
 }
